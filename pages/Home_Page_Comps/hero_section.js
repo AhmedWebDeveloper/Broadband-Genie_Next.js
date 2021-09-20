@@ -31,7 +31,7 @@ const hero_section = () => {
 </form>
 </div>
 
-<a href="#" className="hero-why-postcode-link">Why do we need your postcode?</a>
+<a href="#" className="hero-why-postcode-link">Why do we need your code?</a>
 </div>
                </div> 
                <div className="hero-content-right">

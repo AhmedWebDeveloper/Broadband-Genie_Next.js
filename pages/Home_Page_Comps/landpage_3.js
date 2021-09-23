@@ -71,10 +71,10 @@ const [accorData ,setaccorData] = useState([
     {accorData.map((value,index) => {
      return (<>
 
-  <div className={`accordion-item `} onClick={()=>expander(index)}>
+  <div className={`accordion-item`} onClick={()=>expander(index)}>
 
     <h2 className="accordion-header" id={value.headingId}   >
-      <button className="accordion-button collapsed" type="input" data-bs-toggle="collapse"  data-bs-target={value.collapseId} aria-expanded="true"  aria-controls={value.collapse}  >
+      <button className="accordion-button" type="input" data-bs-toggle="collapse"  data-bs-target={value.collapseId} aria-expanded="false"  aria-controls={value.collapse}  >
 
       {/* aria-expanded="false" > */}
       {value.heading}

@@ -1,27 +1,33 @@
 {
-  "name": "broadband",
-  "version": "0.1.0",
+  "name": "broadband_genie_uk",
+  "version": "1.0.0",
   "private": true,
+  "description": "broadband_genie_uk",
+  "author": "Dawood Ahmed",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@material-ui/core": "^4.11.4",
-    "antd": "^4.15.0",
-    "antd-img-crop": "^3.14.1",
     "bootstrap": "^4.6.0",
-    "formik": "^2.2.6",
-    "next": "10.2.3",
-    "node-sass": "^5.0.0",
-    "react": "17.0.2",
-    "react-bootstrap": "^1.6.0",
-    "react-bootstrap-icons": "^1.4.0",
-    "react-dom": "17.0.2",
-    "yup": "^0.32.9"
+    "gatsby": "^4.13.1",
+    "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-react-helmet": "^5.14.0",
+    "gatsby-plugin-sass": "^5.13.0",
+    "gatsby-plugin-sharp": "^4.13.0",
+    "gatsby-source-filesystem": "^4.13.0",
+    "gatsby-transformer-sharp": "^4.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-favicons": "^2.0.0"
   }
 }

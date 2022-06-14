@@ -1,15 +1,11 @@
 import React from "react";
 
-
 const Header = () => {
   return (
     <>
-     
       <div className="header-background d-flex justify-content-center ">
         <section className="header-container">
-
           <div className="header-section">
-                      
             <div className="header-main  d-flex">
               <header className="header ">
                 <a href="#" className="h-img-parent">
@@ -46,7 +42,6 @@ const Header = () => {
                       <div className="h-nav-main-p-li">
                         <li className="h-nav-main-li">
                           <a href="#" className="header-menu-text">
-                             
                             <span>Tools & Resources</span>
                           </a>
                         </li>
@@ -67,13 +62,13 @@ const Header = () => {
                     </div>
                   </div>
 
-                  <a href="#" class="t-parent-link">
-                    <div class="t-parent">
-                      <div class="t-lines t-top-left "></div>
-                      <div class="t-lines t-top-right "></div>
-                      <div class="t-lines t-midddle"></div>
-                      <div class="t-lines  t-bottom-left"></div>
-                      <div class="t-lines t-bottom-right"></div>
+                  <a href="#" className="t-parent-link">
+                    <div className="t-parent">
+                      <div className="t-lines t-top-left "></div>
+                      <div className="t-lines t-top-right "></div>
+                      <div className="t-lines t-midddle"></div>
+                      <div className="t-lines  t-bottom-left"></div>
+                      <div className="t-lines t-bottom-right"></div>
                     </div>
                   </a>
                 </div>
@@ -82,7 +77,6 @@ const Header = () => {
           </div>
         </section>
       </div>
-      
     </>
   );
 };

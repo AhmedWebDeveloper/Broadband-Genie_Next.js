@@ -1,21 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Landpage_1 = () => {
   return (
     <>
       <span className="land1-adds-left">
-        <img
-          src="https://www.broadbandgenie.co.uk/images/takeover/Shell-side-banner-15.png
-"
-          alt=""
+        <StaticImage
+          src="https://www.broadbandgenie.co.uk/images/takeover/Shell-side-banner-15.png"
           className="img-fluid img-land1-adds-left"
+          alt="img"
+          placeholder="blurred"
         />
       </span>
       <span className="land1-adds-right">
-        <img
+        <StaticImage
           src="https://www.broadbandgenie.co.uk/images/takeover/Shell-side-banner-15.png"
-          alt=""
-          className="img-fluid land1-images img-land1-adds-right"
+          className="img-fluid img-land1-adds-left"
+          alt="img"
+          placeholder="blurred"
         />
       </span>
       <div className="land1-background d-flex justify-content-center">
@@ -34,117 +36,195 @@ const Landpage_1 = () => {
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/36.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/36.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/7.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/7.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/32.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/32.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/43.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/43.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/28.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/28.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/33.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/33.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/88.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/88.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/91.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/91.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/97.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/97.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/101.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/101.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/108.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/108.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/122.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/122.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                     <li className="land1-li">
                       <a href="#" className="img-parent">
                         <img
                           src="https://www.broadbandgenie.co.uk/images/logos/networks/129.png"
-                          alt=""
                           className="img-fluid land1-images"
+                          alt=""
                         />
+                        {/* <StaticImage
+                          src="https://www.broadbandgenie.co.uk/images/logos/networks/129.png"
+                          className="img-fluid land1-images"
+                          placeholder="blurred"
+                          alt="img"
+                        /> */}
                       </a>
                     </li>
                   </ul>

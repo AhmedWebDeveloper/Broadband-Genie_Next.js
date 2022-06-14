@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Home_Page_Comps/header";
-import Hero_Section from "./Home_Page_Comps/hero_section";
-import Land_Page_1 from "./Home_Page_Comps/landpage_1";
-import Land_Page_2 from "./Home_Page_Comps/landpage_2";
-import Land_Page_3 from "./Home_Page_Comps/landpage_3";
-import Land_Page_4 from "./Home_Page_Comps/landpage_4";
-import Land_Page_5 from "./Home_Page_Comps/landpage_5";
+import HeroSection from "./Home_Page_Comps/hero_section";
+import Comparing from "./Home_Page_Comps/comparing";
+import Whyus from "./Home_Page_Comps/whyus";
+import Accordion from "./Home_Page_Comps/accordion";
+import HelpAdvice from "./Home_Page_Comps/helpAdvice";
+import Featured from "./Home_Page_Comps/featured";
 import Footer from "./Home_Page_Comps/footer";
-import Cookies_Card from "./Home_Page_Comps/cookiescard";
+import CookiesCard from "./Home_Page_Comps/cookiescard";
 import Helmet from "react-helmet";
 const App = () => {
   return (
@@ -18,17 +18,16 @@ const App = () => {
           integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
           crossorigin="anonymous"
         ></script>
-
       </Helmet>
       <Header />
-      <Hero_Section />
-      <Land_Page_1 />
-      <Land_Page_2 />
-      <Land_Page_3 />
-      <Land_Page_4 />
-      <Land_Page_5 />
+      <HeroSection />
+      <Comparing />
+      <Whyus />
+      <Accordion />
+      <HelpAdvice />
+      <Featured />
       <Footer />
-      <Cookies_Card />
+      <CookiesCard />
     </>
   );
 };

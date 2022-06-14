@@ -1146,7 +1146,7 @@ div .hero-text-input:focus ~ .hero-hint-input {
   .land1-li {
     margin-bottom: 20px;
   }
-  .land1-images {
+  .land1-images img {
     width: 110px !important;
     height: auto;
   }

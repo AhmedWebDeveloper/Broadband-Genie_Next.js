@@ -62,13 +62,13 @@ const Landpage_2 = () => {
     <>
       {/* {console.log(accorData)} */}
       {/* {accorData.map((value,index)=>console.log(value.heading))} */}
-      <div className="land3-background d-flex justify-content-center">
+      <div id="faqs" className="land3-background d-flex justify-content-center">
         <section className="land3-container">
           <div className="land3-section">
             <div className="land3-main d-flex ">
               <div className="land3-left-side">
                 <div>
-                  <h2 className="land3-header ">
+                  <h2 className="land3-header d-block">
                     What you need to know{" "}
                     <span className="land3-align-header"> about us </span>
                   </h2>
@@ -83,13 +83,10 @@ const Landpage_2 = () => {
               </div>
 
               <div className="land3-right-side">
-                <div class="jsx-2881323093 d-flex justify-content-center d-none land3-header-parent">
-                  <h2 class="jsx-2881323093 land3-header">
+                <div class=" d-flex justify-content-center d-none land3-header-parent d-none">
+                  <h2 class=" land3-header">
                     What you need to know{" "}
-                    <span class="jsx-2881323093 land3-align-header">
-                      {" "}
-                      about us{" "}
-                    </span>
+                    <span class=" land3-align-header"> about us </span>
                   </h2>
                 </div>
                 <div className="accordion-parent w-100">

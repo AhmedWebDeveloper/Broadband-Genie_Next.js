@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Hero_Section = () => {
   return (
     <>
-      <div className="hero-background d-flex justify-content-center">
+      <div id="home" className="hero-background d-flex justify-content-center">
         <div className="hero-container">
           <div className="hero-section ">
             <div className="hero-main">
@@ -40,7 +40,7 @@ const Hero_Section = () => {
                     </form>
                   </div>
 
-                  <a href="#" className="hero-why-postcode-link">
+                  <a href="#" className="hero-why-postcode-link" id="broadBands">
                     Why do we need your postcode?
                   </a>
                 </div>

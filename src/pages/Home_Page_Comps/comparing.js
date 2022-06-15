@@ -20,7 +20,7 @@ const Landpage_1 = () => {
           placeholder="blurred"
         />
       </span>
-      <div className="land1-background d-flex justify-content-center">
+      <div id="broadBands"  className="land1-background d-flex justify-content-center">
         <section className="land1-container">
           <div className="land1-section">
             <div className="land1-main  ">

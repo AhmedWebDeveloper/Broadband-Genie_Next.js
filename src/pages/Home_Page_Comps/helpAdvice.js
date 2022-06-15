@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Landpage_4 = () => {
   return (
     <>
-      <div className="land4-background d-flex justify-content-center">
+      <div id="help" className="land4-background d-flex justify-content-center">
         <section className="land4-container">
           <div className="land4-section">
             <div className="land4-main  ">

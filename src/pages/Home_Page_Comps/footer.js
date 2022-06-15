@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = () => {
   return (
@@ -10,18 +10,19 @@ const Footer = () => {
             <div className="footer-main  d-flex">
               <div className="f-left-parent">
                 <a href="#" className="f-img-link">
-                  <img
+                  {/* <img
                     src="https://www.broadbandgenie.co.uk/img/kazaam/logos/bbg-white.svg"
                     className="f-img"
                     alt="img-not-found"
-                  />
+                  /> */}
               
-                  {/* <StaticImage
-                    src="https://www.broadbandgenie.co.uk/img/kazaam/logos/bbg-white.svg"
-                    className="featured-img"
+                  <StaticImage
+                    src="../../images/footerLogo.png"
+                    className="f-img"
+
                     placeholder="blurred"
                     alt="img"
-                  /> */}
+                  />
 
                   <p className="f-copyight">© Genie Ventures Ltd </p>
                 </a>

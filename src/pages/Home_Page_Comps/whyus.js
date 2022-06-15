@@ -8,7 +8,7 @@ const Landpage_2 = () => {
         <div>
           <section className="land2-container">
             <div className="land2-section">
-              <div className="land2-main d-flex ">
+              <div className="land2-main  d-flex ">
                 <h2 className="land2-header text-white">
                   Why you can trust us
                 </h2>
@@ -57,7 +57,7 @@ const Landpage_2 = () => {
       </div> */}
 
                 <div className="cards-container d-flex ">
-                  <div className="card-main">
+                  <div className="card-main  mx-0 mx-sm-3">
                     <div className="cards card1">
                       <p className="cards-head-text card1-head-text">
                         We're 100% independent and unbiased
@@ -73,7 +73,6 @@ const Landpage_2 = () => {
                           className="card1-img card-img"
                           placeholder="blurred"
                           alt="img"
-                          
                         />
                       </div>
                       <p className="card-bottom-data card1-bottom-data">
@@ -85,7 +84,7 @@ const Landpage_2 = () => {
                     </div>
                   </div>
 
-                  <div className="card-main ">
+                  <div className="card-main  mx-0 mx-sm-3">
                     <div className="cards card2">
                       <p className="cards-head-text ">
                         Our reviews speak
@@ -113,7 +112,8 @@ const Landpage_2 = () => {
                             loading="lazy"
                           /> */}
                           <StaticImage
-                            src="https://www.broadbandgenie.co.uk/img/kazaam/logos/trustpilot.svg"
+                            src="../../images/trustpilot.png"
+                            
                             width="130"
                             height="33"
                             placeholder="blurred"
@@ -130,7 +130,7 @@ const Landpage_2 = () => {
                     </div>
                   </div>
 
-                  <div className="card-main">
+                  <div className="card-main mx-0 mx-sm-3">
                     <div className="cards card3">
                       <p className="cards-head-text">
                         We're safe and

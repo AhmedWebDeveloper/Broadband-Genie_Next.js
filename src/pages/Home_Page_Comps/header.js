@@ -39,11 +39,7 @@ const Header = () => {
                     >
                       <div className="h-nav-main-p-li">
                         <li className="h-nav-main-li d-flex justify-content-center align-items-center my-2 my-sm-3">
-                          <a
-                            href="#"
-                            className="header-menu-text w-100"
-                          
-                          >
+                          <a href="#" className="header-menu-text w-100">
                             <span>Home</span>
                           </a>
                         </li>
@@ -88,8 +84,7 @@ const Header = () => {
                     </div>
                   </div>
 
-                  <a
-                    href="#"
+                  <button
                     className={`t-parent-link ${
                       changeToogle ? "changeToogle" : ""
                     } `}
@@ -102,7 +97,7 @@ const Header = () => {
                       <div className="t-lines  t-bottom-left"></div>
                       <div className="t-lines t-bottom-right"></div>
                     </div>
-                  </a>
+                  </button>
                 </div>
               </header>
             </div>

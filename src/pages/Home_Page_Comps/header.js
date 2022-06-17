@@ -85,7 +85,7 @@ const Header = () => {
                   </div>
 
                   <button
-                    className={`t-parent-link ${
+                    className={`border-0 t-parent-link ${
                       changeToogle ? "changeToogle" : ""
                     } `}
                     onClick={() => setchangeToogle(!changeToogle)}

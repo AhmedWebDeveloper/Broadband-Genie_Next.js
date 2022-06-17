@@ -104,16 +104,9 @@ const Landpage_2 = () => {
                           >
                             594 reviews
                           </a>
-                          {/* <img
-                            src="https://www.broadbandgenie.co.uk/img/kazaam/logos/trustpilot.svg"
-                            width="130"
-                            height="33"
-                            alt=" logo"
-                            loading="lazy"
-                          /> */}
+
                           <StaticImage
                             src="../../images/trustpilot.png"
-                            
                             width="130"
                             height="33"
                             placeholder="blurred"

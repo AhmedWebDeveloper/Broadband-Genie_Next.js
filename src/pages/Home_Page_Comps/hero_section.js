@@ -40,7 +40,11 @@ const Hero_Section = () => {
                     </form>
                   </div>
 
-                  <a href="#" className="hero-why-postcode-link" id="broadBands">
+                  <a
+                    href="#"
+                    className="hero-why-postcode-link"
+                    id="broadBands"
+                  >
                     Why do we need your postcode?
                   </a>
                 </div>

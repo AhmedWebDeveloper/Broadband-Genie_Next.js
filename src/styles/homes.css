@@ -1189,6 +1189,22 @@ div .hero-text-input:focus ~ .hero-hint-input {
   }
 }
 
+@media screen and (max-width: 600px) {
+
+  .land1-cente-ul, .land1-li {
+    display: -moz-box;
+    display: flex;
+    justify-content: center;
+}
+.land1-li {
+  width: 37.333333%;
+  margin-bottom: 50px;
+}
+
+
+
+
+}
 /*  ---------- End Comparing  Section -------------*/
 /*  ---------- Start Land Page 2 Section -------------*/
 /*  ---------- Start Land Page 2 Section -------------*/

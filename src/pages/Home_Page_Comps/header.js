@@ -1,15 +1,27 @@
 import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [changeToogle, setchangeToogle] = useState(false);
+
+  const MenuExpand = (value) => {
+    if (window.innerWidth < 1024) {
+      setchangeToogle(!changeToogle);
+    }
+    if (value === "home") {
+      window.scroll(0, 0);
+      setchangeToogle(false);
+    }
+  };
+
   return (
     <>
       <div
         class={`header-after position-fixed w-100 h-100 ${
           changeToogle ? "d-block" : "d-none"
         } `}
-        onClick={() => setchangeToogle(!changeToogle)}
+        onClick={MenuExpand}
       ></div>
 
       <div className="header-background d-flex justify-content-center position-fixed w-100">
@@ -17,19 +29,24 @@ const Header = () => {
           <div className="header-section">
             <div className="header-main  d-flex">
               <header className="header ">
-                <a href="#" className="h-img-parent">
+                <Link
+                  to="/"
+                  className="h-img-parent"
+                  onClick={() => MenuExpand("home")}
+                >
                   {/* <img
                     src="https://www.broadbandgenie.co.uk/img/kazaam/logos/bbg-logo.svg"
                     className="h-img"
                     alt=""
                   /> */}
+
                   <StaticImage
                     src="../../images/headerLogo.png"
                     className="h-img"
                     alt="img"
                     placeholder="blurred"
                   />
-                </a>
+                </Link>
                 <div className="h-right-side ">
                   <div className="h-nav-parent">
                     <ul
@@ -37,14 +54,14 @@ const Header = () => {
                         changeToogle ? "show-nav" : ""
                       } `}
                     >
-                      <div className="h-nav-main-p-li">
+                      <div className="h-nav-main-p-li" onClick={MenuExpand}>
                         <li className="h-nav-main-li d-flex justify-content-center align-items-center my-2 my-sm-3">
-                          <a href="#" className="header-menu-text w-100">
+                          <a href="#home" className="header-menu-text w-100">
                             <span>Home</span>
                           </a>
                         </li>
                       </div>
-                      <div className="h-nav-main-p-li">
+                      <div className="h-nav-main-p-li" onClick={MenuExpand}>
                         <li className="h-nav-main-li d-flex justify-content-center align-items-center my-2 my-sm-3">
                           <a
                             href="#broadBands"
@@ -54,14 +71,14 @@ const Header = () => {
                           </a>
                         </li>
                       </div>
-                      <div className="h-nav-main-p-li">
+                      <div className="h-nav-main-p-li" onClick={MenuExpand}>
                         <li className="h-nav-main-li d-flex justify-content-center align-items-center my-2 my-sm-3">
                           <a href="#faqs" className="header-menu-text w-100">
                             <span>FAQ's</span>
                           </a>
                         </li>
                       </div>
-                      <div className="h-nav-main-p-li">
+                      <div className="h-nav-main-p-li" onClick={MenuExpand}>
                         <li className="h-nav-main-li d-flex justify-content-center align-items-center my-2 my-sm-3">
                           <a href="#help" className="header-menu-text w-100">
                             <span>Help & Advice</span>
@@ -88,7 +105,7 @@ const Header = () => {
                     className={`border-0 t-parent-link ${
                       changeToogle ? "changeToogle" : ""
                     } `}
-                    onClick={() => setchangeToogle(!changeToogle)}
+                    onClick={MenuExpand}
                   >
                     <div className="t-parent">
                       <div className="t-lines t-top-left "></div>

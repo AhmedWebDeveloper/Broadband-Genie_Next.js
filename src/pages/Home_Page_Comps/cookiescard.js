@@ -26,7 +26,7 @@ const Cookies = () => {
           <a href="#" className="c-policy-link">
             Read our privacy policy
           </a>
-          <button href="#" className="c-ok-btn" onClick={cookiefun}>
+          <button href="#" className="c-ok-btn border-0" onClick={cookiefun}>
             OK
           </button>
         </div>

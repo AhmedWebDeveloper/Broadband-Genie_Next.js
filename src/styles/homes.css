@@ -91,7 +91,7 @@ html {
   /* width: 60%; */
 }
 .hero-background {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .h-nav-main-ul {
@@ -310,7 +310,7 @@ html {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .header {
     -webkit-box-pack: left;
     -ms-flex-pack: left;
@@ -337,6 +337,7 @@ html {
     -ms-flex-align: center;
     align-items: center;
     z-index: 999;
+      top:-3px;
   }
 }
 
@@ -409,6 +410,7 @@ html {
   .t-parent-link {
     width: 52px;
     height: 52px;
+      top: 0px;
   }
   .t-parent {
     width: 20px;

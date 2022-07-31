@@ -8,7 +8,8 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <BrowserRouter>
-     <App/>
+      <App/>
+      
      </BrowserRouter>
     </main>
   );

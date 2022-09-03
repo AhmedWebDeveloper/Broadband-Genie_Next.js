@@ -1,16 +1,12 @@
-import * as React from "react";
-import App from './App'
-import { BrowserRouter } from "react-router-dom";
+import * as React from 'react';
+import App from './App';
 
 // markup
 const IndexPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <BrowserRouter>
-      <App/>
-      
-     </BrowserRouter>
+      <App />
     </main>
   );
 };
